@@ -1,0 +1,51 @@
+# ============================================
+# Configuración sensible
+# ============================================
+config.php
+.env
+
+# ============================================
+# Archivos de prueba/debug (contienen API keys)
+# ============================================
+storage/debug_gemini.php
+storage/test_gemini.php
+storage/test_rules.php
+storage/inspect_tickets.php
+storage/list_models.php
+
+# ============================================
+# Scripts locales
+# ============================================
+auto_sync.ps1
+subir_servidor.ps1
+
+# ============================================
+# Archivos subidos por usuarios
+# ============================================
+public/uploads/*
+!public/uploads/.gitkeep
+
+# ============================================
+# Modelo ML binario (pesado, regenerable)
+# ============================================
+ml/modelo_incidencias.pkl
+
+# ============================================
+# Directorios del sistema / IDE
+# ============================================
+.gemini/
+.agents/
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ============================================
+# Dependencias
+# ============================================
+vendor/
+node_modules/
+ml/venv/
